@@ -87,7 +87,7 @@ public class TGCGame : Game
 
         // Cargo un efecto basico propio declarado en el Content pipeline.
         // En el juego no pueden usar BasicEffect de MG, deben usar siempre efectos propios.
-        _effect = Content.Load<Effect>(ContentFolderEffects + "Ejercicio1");
+        _effect = Content.Load<Effect>(ContentFolderEffects + "Ejercicio2");
 
         // Asigno el efecto que cargue a cada parte del mesh.
         // Un modelo puede tener mas de 1 mesh internamente.
